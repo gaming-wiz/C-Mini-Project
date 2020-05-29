@@ -3,7 +3,7 @@
 #include <conio.h>
 #include<string.h>
 
-//structure for user data
+//structure for user data//
 struct user{
     char username[10];
     char password[10];
@@ -31,7 +31,7 @@ void portal(char[]);
 void bike();
 void return_car();
 
-//function to print introductory message
+//function to print introductory message//
 void welcome()
 {
    printf("\n                     ::::::::::::::::::::::::::::::::::::::::::::::");
@@ -154,7 +154,7 @@ void userlogin(void)
     	fclose(fp);
 }
 
-//function for car booking
+//function for car booking//
 void car(char arr[])
 {
     int i;
@@ -380,7 +380,7 @@ void profile(char arr[])
 
 }
 
-//driver function
+//driver function//
 int main()
 {
   	welcome();    
